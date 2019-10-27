@@ -20,3 +20,8 @@ class McScraper:
         return BeautifulSoup(html, features="html.parser") # Parses the HTML in 'html'
 
 print(McScraper('https://nytimes.com').find_icon())
+
+# Stuff we should scrape for
+# * Open graph image `<meta property="og:image" content="https://example.com/image.jpg">`
+# * Twitter image `<meta name="twitter:image" content="https://example.com/image.jpg">`
+# * Apple app icon: `<link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">`
