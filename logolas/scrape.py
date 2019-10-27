@@ -13,4 +13,4 @@ class McScraper:
         sp = self.__scrape()
 
 
-McScraper('https://konghq.com').find_icon()
+McScraper('https://nytimes.com').find_icon()
